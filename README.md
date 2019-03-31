@@ -2,6 +2,8 @@
 
 This project is an object oriented design of a zoo. The Zoo has a ZooKeeper and different Animals.
 
+JavaDocs: TBD
+
 ## Prerequisites
 
 ```
@@ -53,6 +55,17 @@ Release Jars are located in `<path to ZooProject repo>/ZooProjectJava/releases-j
 #### Run Jar in Terminal
 
 `java -jar <path to ZooProject repo>/ZooProjectJava/releases-jar/Zoo-v1.jar`
+
+## Generate Javadocs
+
+This generates JavaDocs in Eclipse:
+* Select the Java Project folder in the Package Explorer
+* In the top toolbar select `Project > Generate Javadoc...`
+* In "Select typesfor which Javadocwill be generated:" select the `ZooProjectJava` 
+* In "Create Javadoc for members with visibility" select `Package`
+* Choose a destination folder and click finish
+
+JavaDocs are located in `<path to ZooProject repo>/docs`.
 
 ## Next Steps
 

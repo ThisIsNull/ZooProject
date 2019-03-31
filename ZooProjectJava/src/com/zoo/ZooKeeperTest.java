@@ -10,7 +10,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * ZooKeeperTets class is for testing the ZooKeeper class.
+ * ZooKeeperTest class is for testing the ZooKeeper class.
  * @author lucaspoon
  *
  */
