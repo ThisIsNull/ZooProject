@@ -2,7 +2,7 @@
 
 This project is an object oriented design of a zoo. The Zoo has a ZooKeeper and different Animals.
 
-JavaDocs: TBD
+JavaDocs: https://thisisnull.github.io/ZooProject/com/zoo/package-summary.html
 
 ## Prerequisites
 
