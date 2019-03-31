@@ -4,6 +4,10 @@ This project is an object oriented design of a zoo. The Zoo has a ZooKeeper and 
 
 JavaDocs: https://thisisnull.github.io/ZooProject/
 
+## UML Diagram
+
+![UML Diagram](https://github.com/ThisIsNull/ZooProject/tree/master/Images/UML_zoo_java.png)
+
 ## Prerequisites
 
 ```
