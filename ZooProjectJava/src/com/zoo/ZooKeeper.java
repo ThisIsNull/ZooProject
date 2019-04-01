@@ -61,12 +61,12 @@ public class ZooKeeper {
 	 * @param id of the animal.
 	 * @return true if animal exists, otherwise false.
 	 */
-	private boolean checkAnimalId(int id) {
+	private boolean checkAnimalId(int animalId) {
 		// Checking if the id is >= to the the total animals count.
 		// The max id possible is the total animal count - 1.
 		// Ex: if there are 3 animals then only id's 0,1,2 exist.
-		if (id >= zoo.getAnimalCount()) {
-	    	printCommandErrorMessage("There is no animal with ID: " + id);
+		if (animalId >= zoo.getAnimalCount()) {
+	    	printCommandErrorMessage("There is no animal with ID: " + animalId);
 	    	return false;
 	    }
 		return true;
